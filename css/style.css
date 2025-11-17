@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(#153ad0, #000);
+    overflow: hidden;
+}
+
+.main{
+    width: 450px;
+    height: 600px;
+    background-image: url(../imgs/Gn2N_wRaUAAJ8Ts.jpg);
+    background-size: cover;
+    background-position: top 0px right -1100px;
+    background-color: #f2b8dc;
+    margin: 200px auto;
+    border-radius: 10px;
+}
+
+/* .main .tag{
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.main .tag .icon>img{
+    margin-top: 10px;
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+} */
