@@ -32,7 +32,7 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url(./9b3a952d6d8a7c6b22681fda45630d373493288407468174.jpg);
+    background-image: url(./imgs/9b3a952d6d8a7c6b22681fda45630d373493288407468174.jpg);
     background-size: cover;
 }
 
@@ -80,3 +80,4 @@ body{
     margin: 0 10%;
     color: #666;
 }
+
