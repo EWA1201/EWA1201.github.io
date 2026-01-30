@@ -1,0 +1,79 @@
+body{
+    background-color: #303446;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 55rem;
+    height: auto;
+    margin: 3% auto;
+}
+
+.main .big-card{
+    width: 100%;
+    height: 30%;
+    background-color: #414559;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    border-left: 0.2rem solid #FBABD7;
+}
+
+.main .big-card:hover{
+    box-shadow: 0 0 1rem 0.2rem rgb(255 255 255 / 30%);
+}
+
+.main .big-card .post{
+    background-color: #FBABD7;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-image: url(./139125552_p0_master1200.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0.2rem solid #FBABD7;
+}   
+
+.main .big-card h2{
+    margin-top: 2rem;
+    color: #AAFAD1;
+}
+
+.main .big-card h2 span{
+    color: #FBABD7;
+}
+
+.main .big-card .sometext{
+    font-size: 1.2rem;
+    color: #ECEFFA;
+}
+
+.main .samll-cards{
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.main .samll-cards div{
+    flex-direction: column;
+    text-align: center;
+    width: 11em;
+    height: 12%;
+    box-sizing: border-box;
+    border-left: 0.2rem solid #D9AAFA;
+    border-radius: 0.5rem;
+    margin-right: auto;
+    background-color: #414559;
+    color: #D9AAFA;
+    /* background-color: antiquewhite; */
+}
+
+.main .samll-cards div:hover{
+    box-shadow: 0 0 1rem 0.2rem rgb(255 255 255 / 30%);
+}
+
+.main .samll-cards div:nth-child(4n){
+    margin-right: 0;
+}
