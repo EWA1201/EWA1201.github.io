@@ -1,29 +1,82 @@
 body{
-    background: linear-gradient(#153ad0, #000);
-    overflow: hidden;
+    background-image: linear-gradient(120deg,#e0c3fc 0%, #8ec5fc 100%);
+    background-repeat: no-repeat;
+}
+
+::selection{
+    color: #fff;
+    background-color: rgb(144, 129, 241);
 }
 
 .main{
-    width: 450px;
-    height: 600px;
-    background-image: url(../imgs/Gn2N_wRaUAAJ8Ts.jpg);
+    display: flex;
+    width: 70rem;
+    height: 55rem;
+    background-color: rgba(255,255,255,60%);
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 30%);
+    margin: 10% auto;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.main .left{
+    position: relative;
+    width: 35%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.main .left::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./9b3a952d6d8a7c6b22681fda45630d373493288407468174.jpg);
     background-size: cover;
-    background-position: top 0px right -1100px;
-    background-color: #f2b8dc;
-    margin: 200px auto;
-    border-radius: 10px;
 }
 
-/* .main .tag{
-    color: #fff;
-    margin: 0 auto;
+.main .right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    line-height: 1.5em;
 }
 
-.main .tag .icon>img{
-    margin-top: 10px;
-    width: 90px;
-    height: 80px;
-    border-radius: 100%;
-} */
+.main .right h2{
+    font-size: 2rem;
+    margin-top: 3em;
+    color: rgb(144, 129, 241);
+}
+
+.main .right .acc .acc{
+    width: 80%;
+    height: 3rem;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 1px solid rgb(144, 129, 241);
+    color: rgb(144, 129, 241);
+}
+
+.main .right .acc .submit{
+    width: 40%;
+    height: 3.5rem;
+    margin-top: 3rem;
+    background-image: linear-gradient(120deg,#e0c3fc 0%, #8ec5fc 100%);
+    border: none;
+    color: #fff;
+}
+
+.main .right .fin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50%;
+}
+
+.main .right .fin a{
+    text-decoration: none;
+    margin: 0 10%;
+    color: #666;
+}
