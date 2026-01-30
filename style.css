@@ -67,7 +67,7 @@ body{
     margin-right: auto;
     background-color: #414559;
     color: #7BD9E0;
-    cursor: inherit;
+    cursor: default;
 }
 
 .main .samll-cards div:hover{
@@ -77,4 +77,5 @@ body{
 .main .samll-cards div:nth-child(3n){
     margin-right: 0;
 }
+
 
