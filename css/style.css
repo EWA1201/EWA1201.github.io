@@ -32,7 +32,7 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url("./imgs/9b3a952d6d8a7c6b22681fda45630d373493288407468174.jpg");
+    background-image: url(./9b3a952d6d8a7c6b22681fda45630d373493288407468174.jpg);
     background-size: cover;
 }
 
@@ -58,6 +58,7 @@ body{
     background-color: rgba(0,0,0,0);
     border-bottom: 1px solid rgb(144, 129, 241);
     color: rgb(144, 129, 241);
+    font-size: 18px;
 }
 
 .main .right .acc .submit{
@@ -67,6 +68,7 @@ body{
     background-image: linear-gradient(120deg,#e0c3fc 0%, #8ec5fc 100%);
     border: none;
     color: #fff;
+    font-size: 16px;
 }
 
 .main .right .fin{
@@ -80,5 +82,6 @@ body{
     margin: 0 10%;
     color: #666;
 }
+
 
 
