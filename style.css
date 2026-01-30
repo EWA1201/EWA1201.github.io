@@ -14,6 +14,9 @@ body{
     height: 30%;
     background-color: #414559;
     box-sizing: border-box;
+    background-image: url(./Gk2yy_2aoAQuSBR.jpg);
+    background-position: center;
+    background-size: cover;
     border-radius: 1rem;
     padding: 2rem;  
     font-size: 1.3rem;
@@ -28,6 +31,7 @@ body{
     background-color: #46E0C2;
     width: 6rem;
     height: 6rem;
+    box-sizing: border-box;
     border-radius: 50%;
     background-image: url(./139125552_p0_master1200.jpg);
     background-size: cover;
@@ -41,10 +45,11 @@ body{
 }
 
 .main .big-card h2 span{
-    color: #75ACE1;
+    color: #26EBCD;
 }
 
 .main .big-card .sometext{
+    height: 1.4rem;
     font-size: 1.2rem;
     color: #ECEFFA;
 }
@@ -77,5 +82,3 @@ body{
 .main .samll-cards div:nth-child(3n){
     margin-right: 0;
 }
-
-
