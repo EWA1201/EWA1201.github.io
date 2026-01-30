@@ -74,7 +74,8 @@ body{
     box-shadow: 0 0 1rem 0.2rem rgb(217 170 250 / 60%);
 }
 
-.main .samll-cards div:nth-child(4n){
+.main .samll-cards div:nth-child(3n){
     margin-right: 0;
 
 }
+
