@@ -1,6 +1,7 @@
 body{
     background-color: #303446;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
 }
 
 .main{
@@ -14,14 +15,15 @@ body{
     height: 30%;
     background-color: #414559;
     box-sizing: border-box;
-    background-image: url(./Gk2yy_2aoAQuSBR.jpg);
+    /* background-image: url(./Gk2yy_2aoAQuSBR.jpg); */
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
     padding: 2rem;  
     font-size: 1.3rem;
     border-left: 0.2rem solid #46E0C2;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
+    box-shadow: 5.3px 5.3px 0.9rem -0.7rem #ffffff;
 }
 
 .main .big-card:hover{
@@ -74,8 +76,7 @@ body{
     margin-right: auto;
     background-color: #414559;
     color: #7BD9E0;
-    cursor: default;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
 }
 
 .main .samll-cards .samll-card:hover{
@@ -86,4 +87,3 @@ body{
 .main .samll-cards div:nth-child(3n){
     margin-right: 0;
 }
-
