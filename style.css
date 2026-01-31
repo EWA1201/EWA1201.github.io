@@ -27,7 +27,7 @@ body{
 }
 
 .main .big-card:hover{
-    box-shadow: 0 0 1rem 0.2rem rgb(70 224 194 / 60%);
+    box-shadow: 0 0 0.5rem 0.2rem rgb(70 224 194 / 60%);
     transform: translateY(-2px);
 }
 
@@ -80,7 +80,7 @@ body{
 }
 
 .main .samll-cards .samll-card:hover{
-    box-shadow: 0 0 1rem 0.2rem rgb(123 217 224 / 60%);
+    box-shadow: 0 0 0.5rem 0.2rem rgb(123 217 224 / 60%);
     transform: translateY(-2px);
 }
 
