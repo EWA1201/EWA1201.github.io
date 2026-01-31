@@ -21,13 +21,15 @@ body{
     padding: 2rem;  
     font-size: 1.3rem;
     border-left: 0.2rem solid #46E0C2;
+    transition: 0.5s ease;
 }
 
 .main .big-card:hover{
     box-shadow: 0 0 1rem 0.2rem rgb(70 224 194 / 60%);
+    transform: translateY(-2px);
 }
 
-.main .big-card .post{
+.main .big-card .avatar{
     background-color: #46E0C2;
     width: 6rem;
     height: 6rem;
@@ -61,7 +63,7 @@ body{
     display: flex;
 }
 
-.main .samll-cards div{
+.main .samll-cards .samll-card{
     flex-direction: column;
     text-align: center;
     width: 11em;
@@ -73,10 +75,12 @@ body{
     background-color: #414559;
     color: #7BD9E0;
     cursor: default;
+    transition: 0.5s ease;
 }
 
-.main .samll-cards div:hover{
+.main .samll-cards .samll-card:hover{
     box-shadow: 0 0 1rem 0.2rem rgb(123 217 224 / 60%);
+    transform: translateY(-2px);
 }
 
 .main .samll-cards div:nth-child(3n){
